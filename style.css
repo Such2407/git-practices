@@ -1,0 +1,147 @@
+body{
+    padding: 0;
+    margin: 0;
+    color: rgb(109, 109, 109);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.red{
+    color: rgba(250, 121, 16, 0.782);
+}
+.box{
+    width: 90%;
+    margin: auto;
+}
+.mint{
+    margin: 40px 0;
+}
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.main-nav{
+    padding: 20px 0;
+    background-color: white;
+}
+.logo{
+    width: 30%;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar-contact{
+    width: 55%;
+}
+.access{
+    font-size: 15px;
+}
+.sub-nav{
+    background-color: black;
+    padding: 10px 0;
+    color: white;
+}
+.home{
+    background-color: white;
+    color: rgba(250, 121, 16, 0.782);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.menus{
+    width: 60%;
+    margin: auto;
+}
+.menu{
+    font-size: 23px;
+    transition: .5s;
+}
+.menu:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rgba(250, 121, 16, 0.782);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Hero-section */
+.header{
+    background-image: linear-gradient(rgba(1, 1, 1, 0.798),rgba(11, 9, 9, 0.284)), url(/Pictures/tech3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.header-head{
+    color: white;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.hh{
+    font-size: 60px;
+    font-weight: bold;
+}
+.hp{
+    
+}
+.let-talk{
+    font-size: 20px;
+    width: 100%;
+    padding: 8px 0;
+    border-radius: 10px;
+    border: none;
+}
+.header-head > div{
+    margin-bottom: 30px;
+}
+.sec1{
+    margin-bottom:80px;
+}
+.sec1-head{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    padding-top:40px ;
+}
+.underline{
+    width: 400px;
+    margin: auto;
+    height: 2px;
+    background-color: rgba(250, 121, 16, 0.782);
+}
+.ct{
+    text-align: center;
+    margin-top: 10px;
+}
+.wave-bg{
+    height: 400px;
+    background-image: linear-gradient(rgba(1, 1, 1, 0.798),rgba(11, 9, 9, 0.284)), url(/Pictures/electric-wires-720.jpg);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background-attachment: fixed;
+}
+
+
+
+
+
+@media screen and (max-width:850px){
+    .menus{
+        width: 80%;
+        margin: auto;
+    }
+}
